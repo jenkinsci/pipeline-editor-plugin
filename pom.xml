@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>1.639</version>
-    <relativePath/>
+    <relativePath />
   </parent>
   <artifactId>pipeline-editor</artifactId>
-  <version>1.0-alpha-1-SNAPSHOT</version>
+  <version>1.0-alpha-1</version>
   <packaging>hpi</packaging>
 
   <name>Visual pipeline editor plugin</name>
@@ -36,6 +35,7 @@
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    <tag>pipeline-editor-1.0-alpha-1</tag>
   </scm>
   
   <repositories>
@@ -83,9 +83,7 @@
   Skip the injected test to avoid: 
   
   org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite(org.jvnet.hudson.test.junit.FailedTest)  Time elapsed: 0.023 sec  <<< ERROR!
-java.lang.NoClassDefFoundError: org/apache/http/cookie/CookieSpecProvider
-
-  --> 
+java.lang.NoClassDefFoundError: org/apache/http/cookie/CookieSpecProvider --> 
   <build>
       <plugins>
           <plugin>
