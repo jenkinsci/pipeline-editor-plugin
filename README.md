@@ -48,7 +48,11 @@ Create a new job of the Workflow type, and click "edit" next to the drop down th
 Then Click save. It will have saved the workflow and you can execute it (it uses a pre-canned test repo just to show it works end to end).
 
 ### Using a pre-built hpi
+
+This plugin should be available on the [experimental update center](http://jenkins-ci.org/content/experimental-plugins-update-center). 
+
 You can try a [preview](https://github.com/jenkinsci/pipeline-editor-plugin/releases/tag/v0.0.1-alpha) release if you are unable to run mvn. To use this, please first install the depndencies mentioned on that url, before installing the hpi into your Jenkins instance. Remember this is experimental/preview status.
+
 
 ## Developing the plugin
 
