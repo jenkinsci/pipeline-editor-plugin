@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This was done as a proof of concept and should not be used. 
+Any future work on a visual pipeline editor that was inspired by this is being moved to https://github.com/jenkinsci/blueocean-pipeline-editor-plugin
+
+
 # (Experimental) Visual pipeline editor for Jenkins Workflow. 
 
 _NOTE: this plugin is experimental. It is likely to abruptly change course in design or source code. It may set your hair on fire. Consider yourself warned before using._
