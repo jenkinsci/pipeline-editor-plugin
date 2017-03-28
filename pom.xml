@@ -12,8 +12,8 @@
   <version>1.0-alpha-2-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
-  <name>Visual pipeline editor plugin</name>
-  <description>Edit your Jenkins Workflow pipelines visually</description>
+  <name>DEPRECATED: Visual pipeline editor plugin</name>
+  <description>DEPRECATED: Use BlueOcean + visual pipeline editor instead</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Editor+Plugin</url>
   <licenses>
     <license>
